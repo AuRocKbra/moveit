@@ -1,6 +1,12 @@
+import {Button} from './components/Button'
+import './styles/global.css';
 function App() {
   return (
-    <h1>Ola React</h1>
+    <div>
+      <Button color="blue">BTO 1</Button>
+      <Button color="red">BTO 2 </Button>
+      <Button color="green">BTO 3</Button>
+    </div>
   );
 }
 
